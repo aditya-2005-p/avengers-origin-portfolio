@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Shield, Home, User, Folder, Zap, MessageSquare } from 'lucide-react';
 
 const Navigation = () => {
+  console.log('Navigation component rendering...');
   const location = useLocation();
 
   const navItems = [

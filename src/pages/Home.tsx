@@ -3,6 +3,8 @@ import { Shield, ArrowRight, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  console.log('Home component rendering...');
+  
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       {/* Animated background tech grid */}
